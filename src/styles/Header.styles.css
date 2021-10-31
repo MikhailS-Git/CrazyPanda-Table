@@ -1,0 +1,18 @@
+.header {
+    height: 10vh;
+    background-color: #333;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;   
+}
+
+.header h2 {
+    text-align: center;
+}

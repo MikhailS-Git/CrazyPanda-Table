@@ -1,0 +1,25 @@
+.pagination {
+    margin: 30px 0;
+}
+
+.page-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.page-btn {
+    border: none;
+    padding: 5px;
+}
+
+.page-btn:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
+.active-page {
+    background-color: #333;
+    color: #fff;
+    text-decoration: underline;
+}

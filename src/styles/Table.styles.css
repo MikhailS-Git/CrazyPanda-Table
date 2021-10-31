@@ -1,0 +1,56 @@
+.table {
+    min-width: 50%;
+    max-width: 800px;
+    border-spacing: 0 2;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #333;
+    color: #eee;
+    padding: 10px 20px;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+td {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: lightblue;
+}
+
+tr td:first-child {
+    background-color: #333;
+    color: #eee;
+}
+
+/* border radius for corner table cells */
+
+th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    td, th {
+        padding: 10px;
+    }
+}

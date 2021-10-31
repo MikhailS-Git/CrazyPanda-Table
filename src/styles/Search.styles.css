@@ -1,0 +1,29 @@
+.search-form {
+    max-width: 300px;
+    padding: 20px;
+    margin: 0 auto 30px auto;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.search-title {
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.input-label {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input:focus {
+    border-bottom: 1px solid tomato;
+}
